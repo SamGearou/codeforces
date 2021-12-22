@@ -3,7 +3,7 @@ import java.util.Scanner;
 // Divan and bitwise operations
 public class DivanAndBitwiseOperations {
 
-    public static void main(String[] args) {
+    public static void solution() {
         Scanner scanner = new Scanner(System.in);
         int numCases = Integer.parseInt(scanner.nextLine());
         for (int i = 0; i < numCases; i++) {
