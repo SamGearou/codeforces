@@ -1,20 +1,17 @@
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
 //Weights Assignment For Tree Edges
 public class WeightAssignmentForTreeEdges {
 
-    public static void main(String[] args) {
-        WeightAssignmentForTreeEdges.solution();
-    }
-
     public static void solution() {
         Scanner scanner = new Scanner(System.in);
         int numCases = Integer.parseInt(scanner.nextLine());
         for (int i = 0; i < numCases; i++) {
             int numVertices = Integer.parseInt(scanner.nextLine());
-            int[] b = convertToIntArr(scanner.nextLine().split(" "), numVertices);
-            int[] p = convertToIntArr(scanner.nextLine().split(" "), numVertices);
+            int[] b = Arrays.stream(scanner.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
+            int[] p = Arrays.stream(scanner.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
             HashMap<Integer, Long> dist = new HashMap<>();
             HashMap<Integer, Integer> edges = new HashMap<>();
             boolean isValidPerm = true;
@@ -51,14 +48,5 @@ public class WeightAssignmentForTreeEdges {
                 System.out.println("-1");
             }
         }
-    }
-
-    private static int[] convertToIntArr(String[] bTokens, int numVertices) {
-        int[] arr = new int[numVertices];
-        int ind = 0;
-        for (String s : bTokens) {
-            arr[ind++] = Integer.parseInt(s);
-        }
-        return arr;
     }
 }

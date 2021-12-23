@@ -1,6 +1,5 @@
 import java.util.Arrays;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 //Triangles on a Rectangle
 public class TrianglesOnARectangle {
@@ -12,10 +11,10 @@ public class TrianglesOnARectangle {
             String[] tokens = scanner.nextLine().split(" ");
             int w = Integer.parseInt(tokens[0]);
             int h = Integer.parseInt(tokens[1]);
-            int[] bottom = Arrays.stream(scanner.nextLine().split(" ")).collect(Collectors.toList()).stream().mapToInt(Integer::parseInt).toArray();
-            int[] top = Arrays.stream(scanner.nextLine().split(" ")).collect(Collectors.toList()).stream().mapToInt(Integer::parseInt).toArray();
-            int[] left = Arrays.stream(scanner.nextLine().split(" ")).collect(Collectors.toList()).stream().mapToInt(Integer::parseInt).toArray();
-            int[] right = Arrays.stream(scanner.nextLine().split(" ")).collect(Collectors.toList()).stream().mapToInt(Integer::parseInt).toArray();
+            int[] bottom = Arrays.stream(scanner.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
+            int[] top = Arrays.stream(scanner.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
+            int[] left = Arrays.stream(scanner.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
+            int[] right = Arrays.stream(scanner.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
             long ans = 0;
             //check bottom
             int[] leftPt = {bottom[1], 0};

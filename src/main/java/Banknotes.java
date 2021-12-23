@@ -11,7 +11,7 @@ public class Banknotes {
         for (int i = 0; i < numCases; i++) {
             String[] tokens = scanner.nextLine().split(" ");
             int k = Integer.parseInt(tokens[1]) + 1;
-            int[] denominations = Arrays.stream(scanner.nextLine().split(" ")).collect(Collectors.toList()).stream().mapToInt(Integer::parseInt).toArray();
+            int[] denominations = Arrays.stream(scanner.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
             long num = 0;
             for (int j = 0; j < denominations.length; j++) {
                 long currDenom = (int) Math.pow(10, denominations[j]);

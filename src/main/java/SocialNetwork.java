@@ -6,7 +6,7 @@ import java.util.Scanner;
 //Social Network
 public class SocialNetwork {
 
-    public static void solution(String[] args) {
+    public static void solution() {
         Scanner scanner = new Scanner(System.in);
         String[] tokens = scanner.nextLine().split(" ");
         int num = Integer.parseInt(tokens[0]);
