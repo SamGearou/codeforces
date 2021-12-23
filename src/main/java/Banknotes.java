@@ -5,10 +5,6 @@ import java.util.stream.Collectors;
 //Banknotes
 public class Banknotes {
 
-    public static void main(String[] args) {
-        Banknotes.solution();
-    }
-
     public static void solution() {
         Scanner scanner = new Scanner(System.in);
         int numCases = Integer.parseInt(scanner.nextLine());
