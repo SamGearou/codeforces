@@ -10,10 +10,6 @@ import java.util.StringTokenizer;
 // Paprika and Permutation
 public class PaprikaAndPermutation {
 
-    public static void main(String[] args) throws IOException {
-        PaprikaAndPermutation.solution();
-    }
-
     private static void solution() throws IOException {
         PrintWriter printWriter = new PrintWriter(System.out);
         MyScanner scanner = new MyScanner();
