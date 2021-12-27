@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//X-Magic Pair
+// X-Magic Pair
 public class XMagicPair {
 
     public static void solution() {

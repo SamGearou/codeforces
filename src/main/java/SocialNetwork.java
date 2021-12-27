@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Scanner;
 
-//Social Network
+// Social Network
 public class SocialNetwork {
 
     public static void solution() {

@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-//Complex Market Analysis
+// Complex Market Analysis
 public class ComplexMarketAnalysis {
 
     public static void solution() {

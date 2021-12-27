@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-//Triangles on a Rectangle
+// Triangles on a Rectangle
 public class TrianglesOnARectangle {
 
     public static void solution() {

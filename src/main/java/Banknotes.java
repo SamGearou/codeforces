@@ -1,8 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
-//Banknotes
+// Banknotes
 public class Banknotes {
 
     public static void solution() {

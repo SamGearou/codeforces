@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
-//Weights Assignment For Tree Edges
+// Weights Assignment For Tree Edges
 public class WeightAssignmentForTreeEdges {
 
     public static void solution() {
