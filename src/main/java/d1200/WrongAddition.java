@@ -1,3 +1,5 @@
+package d1200;
+
 import java.util.Scanner;
 
 // Wrong Addition

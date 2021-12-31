@@ -1,3 +1,5 @@
+package d1300;
+
 import java.util.Arrays;
 import java.util.Scanner;
 

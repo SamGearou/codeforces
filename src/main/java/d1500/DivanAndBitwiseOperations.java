@@ -1,3 +1,5 @@
+package d1500;
+
 import java.util.Scanner;
 
 // Divan and bitwise operations

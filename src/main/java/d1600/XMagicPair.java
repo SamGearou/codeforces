@@ -1,3 +1,5 @@
+package d1600;
+
 import java.util.Scanner;
 
 // X-Magic Pair

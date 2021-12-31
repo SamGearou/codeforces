@@ -1,10 +1,12 @@
+package d1300;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-// Chat Bot
-public class ChatBot {
+// Chat Ban
+public class ChatBan {
 
     private static void solution() throws IOException {
         MyScanner scanner = new MyScanner();
